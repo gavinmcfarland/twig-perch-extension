@@ -1,5 +1,4 @@
 <?php
-
 class Extension_Twig_Perch extends Twig_Extension
 {
 	public function getFunctions()
@@ -17,7 +16,7 @@ class Extension_Twig_Perch extends Twig_Extension
 
 	public function runtime()
 	{
-		return include('/srv/dev/amishtours.co.uk/public/perch/runtime.php');
+		return include('/path/to/runtime.php');
 	}
 
 	public function getName()
